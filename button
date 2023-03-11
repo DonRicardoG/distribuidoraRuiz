@@ -1,0 +1,4 @@
+<button type="button" data-bs-toggle="modal" data-bs-target="#modal4" class="btn btn-outline-danger">Ver más</button>
+<button type="button" data-bs-toggle="modal" data-bs-target="#modal3" class="btn btn-outline-danger">Ver más</button>
+<button type="button" data-bs-toggle="modal" data-bs-target="#modal2" class="btn btn-outline-danger">Ver más</button>
+<button type="button" data-bs-toggle="modal" data-bs-target="#modal" class="btn btn-outline-danger">Ver más</button>

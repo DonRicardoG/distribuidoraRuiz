@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/logo.png">
+    <link rel="stylesheet" href="build/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Distribuidora Ruiz</title>
+</head>
+<body class="bg-light">
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
+  <nav id="navbar-example2" class="navbar bg-light px-3 mb-3 justify-content-center">
+    <a class="navbar-brand" href="index.html"><img class="logo-img" src="/img/logo.png" alt=""></a>
+    <ul class="nav nav-pills flex-nowrap">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="nosotros.html">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#product-container">Productos</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Otras Empresas</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item text-dark" href="#otras-empresas">CroPet</a></li>
+          <li><a class="dropdown-item text-dark" href="#scrollspyHeading4">Semillas Ruiz</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+    <!-- Corrousel -->
+    <div class="bg-1 card-carousel"></div>
+      <!-- Productos -->
+      <h1 class="mt-5 text-center">Nuestro Productos</h1>
+      <h3 class="mb-5 text-center">Excelencia Garantizada</h3>
+      <div id="product-container" class="container-xl lg-block">
+        <div class="row mt-4">
+          <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+            <img src="/img/frijol-negro2.png" alt="frijoles" style="border-radius: 60%; width: 60%;">
+            <h2>Frijoles</h2>
+            <p class="h5">La mejor calidad y variedad de frijoles</p>
+            <p>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#modal2" class="btn btn-outline-danger">Ver más</button>
+            </p>
+          </div>
+          <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+            <img src="/img/girasol.png" alt="semillas" style="border-radius: 50%; width: 60%;">
+            <h2>Granos</h2>
+            <p class="h5">Granos y semillas todo el año.</p>
+            <p>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#modal" class="btn btn-outline-danger">Ver más</button>
+            </p>
+          </div>
+          <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+            <img src="/img/cascabel.PNG" alt="secos" style="border-radius: 50%; width: 60%;">
+            <h2 class="h3">Productos Secos</h2>
+            <p class="h5">La mejor calidad de productos secos</p>
+            <p>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#modal3" class="btn btn-outline-danger">Ver más</button>
+            </p>
+          </div>
+          <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+            <img src="/img/alimento-mascotas.png" alt="alimento-mascotas" style="border-radius: 50%; width: 60%;">
+            <h2 class="h4 my-2">Alimentos y Forrajes</h2>
+            <p class="h5">La mejor alimentacion garantizada</p>
+            <p>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#modal4" class="btn btn-outline-danger">Ver más</button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="carouselExample3" class="carousel slide md-block my-5">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+                  <img src="/img/frijol-negro2.png" alt="frijoles" style="border-radius: 60%; width: 60%;">
+                  <h2>Frijoles</h2>
+                  <p class="h5">La mejor calidad y variedad de frijoles</p>
+                  <p>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#modal2" class="btn btn-outline-danger">Ver más</button>
+                  </p>
+                </div>
+                <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+                  <img src="/img/girasol.png" alt="semillas" style="border-radius: 50%; width: 60%;">
+                  <h2>Granos</h2>
+                  <p class="h5">Granos y semillas todo el año.</p>
+                  <p>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#modal" class="btn btn-outline-danger">Ver más</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+                  <img src="/img/cascabel.PNG" alt="secos" style="border-radius: 50%; width: 60%;">
+                  <h2 class="h3">Productos Secos</h2>
+                  <p class="h5">La mejor calidad de productos secos</p>
+                  <p>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#modal3" class="btn btn-outline-danger">Ver más</button>
+                  </p>
+                </div>
+                <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+                  <img src="/img/alimento-mascotas.png" alt="alimento-mascotas" style="border-radius: 50%; width: 60%;">
+                  <h2 class="h4 my-2">Alimentos y Forrajes</h2>
+                  <p class="h5">La mejor alimentación garantizada</p>
+                  <p>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#modal4" class="btn btn-outline-danger">Ver más</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+      <div id="carouselExample2" class="carousel carousel-dark slide sm-block my-5">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+              <img src="/img/frijol-negro2.png" alt="frijoles" style="border-radius: 60%; width: 60%;">
+              <h2>Frijoles</h2>
+              <p class="h5">La mejor calidad y variedad de frijoles</p>
+              <p>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#modal2" class="btn btn-outline-danger">Ver más</button>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+              <img src="/img/girasol.png" alt="semillas" style="border-radius: 50%; width: 60%;">
+              <h2>Granos</h2>
+              <p class="h5">Granos y semillas todo el año.</p>
+              <p>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#modal" class="btn btn-outline-danger">Ver más</button>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+              <img src="/img/cascabel.PNG" alt="secos" style="border-radius: 50%; width: 60%;">
+              <h2 class="h3">Productos Secos</h2>
+              <p class="h5">La mejor calidad de productos secos</p>
+              <p>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#modal3" class="btn btn-outline-danger">Ver más</button>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div data-aos="zoom-in-up" class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-around">
+              <img src="/img/alimento-mascotas.png" alt="alimento-mascotas" style="border-radius: 50%; width: 60%;">
+              <h2 class="h4 my-2">Alimentos y Forrajes</h2>
+              <p class="h5">La mejor alimentacion garantizada</p>
+              <p>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#modal4" class="btn btn-outline-danger">Ver más</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  
+      <hr class="featurette-divider my-5">
+      <!-- Product Modal -->
+      <div id="modal" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <div class="modal-title">
+                <h2>Tipos de Granos</h2>
+              </div>
+              <button data-bs-dismiss="modal" class="btn-close"></button>
+              </div>
+              <div class="modal-body">
+                <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="/img/girasol2.PNG" class="d-block w-100" alt="semilla girasol">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="/img/alpiste.PNG" class="d-block w-100" alt="lenteja">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/maiz.PNG" class="d-block w-100" alt="maiz">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/lenteja.PNG" class="d-block w-100" alt="maiz">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button data-bs-dismiss="modal" class="btn btn-primary">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="modal2" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <div class="modal-title">
+                <h2>Tipos de Frijol</h2>
+              </div>
+              <button data-bs-dismiss="modal" class="btn-close"></button>
+              </div>
+              <div class="modal-body">
+                <div id="carouselExampleDark2" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="/img/frijol-negro.PNG" class="d-block w-100" alt="frijol-negro">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="/img/frijol-peruano.PNG" class="d-block w-100" alt="frijol-peruano">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="/img/frijol-pinto-n.png" class="d-block w-100" alt="frijol-pinto-nacional">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="/img/frijol-pinto.PNG" class="d-block w-100" alt="frijol-pinto">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button data-bs-dismiss="modal" class="btn btn-primary">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="modal3" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <div class="modal-title">
+                <h2>Productos Secos</h2>
+              </div>
+              <button data-bs-dismiss="modal" class="btn-close"></button>
+              </div>
+              <div class="modal-body">
+                <div id="carouselExampleDark3" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="/img/chile-arbol.PNG" class="d-block w-100" alt="arbol">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <div>
+                        <img src="/img/cascabel2.PNG" class="d-block w-100" alt="ancho">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/hoja-tamal.PNG" class="d-block w-100" alt="hoja-tamal">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/ajo.PNG" class="d-block w-100" alt="ajo">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/chile-pasilla.PNG" class="d-block w-100" alt="ajo">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button data-bs-dismiss="modal" class="btn btn-primary">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="modal4" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <div class="modal-title">
+                <h2>Marcas de Alimentos</h2>
+              </div>
+              <button data-bs-dismiss="modal" class="btn-close"></button>
+              </div>
+              <div class="modal-body">
+                <div id="carouselExampleDark4" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="/img/nupec.png" class="d-block w-100" alt="dog chow">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="/img/19-hermanos.png" class="d-block w-100" alt="pedigree">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/campeon.png" class="d-block w-100" alt="campeon">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/albapesa.png" class="d-block w-100" alt="albapesa">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/el nogal.png" class="d-block w-100" alt="el nogal">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/purina.png" class="d-block w-100" alt="el nogal">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/gallo-mix.png" class="d-block w-100" alt="el nogal">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/engorda.png" class="d-block w-100" alt="el nogal">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/red-force.png" class="d-block w-100" alt="el nogal">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/inicio.png" class="d-block w-100" alt="el nogal">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/castabrava-gory.png" class="d-block w-100" alt="el nogal">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/conejina.png" class="d-block w-100" alt="el nogal">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/img/forraje-purina.png" class="d-block w-100" alt="el nogal">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button data-bs-dismiss="modal" class="btn btn-primary">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Otras Empresas -->
+      <div id="otras-empresas" class="container-md">
+        <h1 class="text-end">Nuestros puntos de venta</h1>
+        <h4 class="text-end mb-5">Con productos de alta calidad</h4>
+        <div class="row justify-content-around">
+          <div  class="card mb-3 col-lg-6" style="width: 460px;">
+            <img src="/img/cropet.png" class="card-img-top mt-2" alt="cropet">
+            <div class="card-body">
+              <h5 class="card-title">CROPET</h5>
+              <p class="card-text">Enfocado al 100% en la alimentación, manutención y salud de tu mejor amigo. Tenemos lo que se necesita para tus mascotas.</p>
+              <button class="btn btn-outline-success btn-lg" data-bs-toggle="modal" data-bs-target="#ubicacion2">Ubicacion</button>
+            </div>
+          </div>
+          <div  class="card mb-3 col-lg-6" style="width: 460px;">
+            <img src="/img/sfp ruiz.png" class="card-img-top mt-2" alt="cropet">
+            <div class="card-body">
+              <h5 class="card-title">Semillas, Forrajes y Precuarios Ruiz</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum omnis illo sequi commodi eligendi unde molestiae fugiat ad.</p>
+              <button class="btn btn-outline-success btn-lg" data-bs-toggle="modal" data-bs-target="#ubicacion">Ubicacion</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="ubicacion" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <div class="modal-title">
+                <h2>¡Ven a Visitarnos!</h2>
+              </div>
+              <button data-bs-dismiss="modal" class="btn-close"></button>
+              </div>
+              <div class="modal-body d-flex justify-content-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28827.569291582517!2d-101.00374372089837!3d25.423343200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86880d644aa97f27%3A0x3fb95ed49e7abe13!2sSemillas%20Forrajes%20y%20Pecuarios%20Ruiz!5e0!3m2!1sen!2smx!4v1661918407340!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="modal-footer">
+                <button data-bs-dismiss="modal" class="btn btn-primary">Cerrar</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div id="ubicacion2" class="modal fade">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header justify-content-center">
+              <div class="modal-title">
+                <h2>¡Ven a Visitarnos!</h2>
+              </div>
+              <button data-bs-dismiss="modal" class="btn-close"></button>
+              </div>
+              <div class="modal-body d-flex justify-content-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.677798015484!2d-100.93971198498407!3d25.515790083749042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86881375a675318b%3A0x58e6a1754801e429!2sCalle%20Calz.%20Salto%20de%20Agua%201360%2C%20Manantiales%20del%20Valle%2C%2025904%20Ramos%20Arizpe%2C%20Coah.!5e0!3m2!1sen!2smx!4v1678471220470!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="modal-footer">
+                <button data-bs-dismiss="modal" class="btn btn-primary">Cerrar</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <hr class="featurette-divider my-5">
+      <!-- Nostros -->
+      <div class="container-xl px-5">
+        <div class="row">
+          <div  class="col-md-7 d-flex flex-column justify-content-center align-items-start p-5">
+            <h2>
+              Una Compañia con Valores Familiares.
+            </h2>
+            <p class="lead">
+              Con nosotros encontrarás productos de alta calidad, combinados con un servicio de primera clase.
+            </p>
+            <a href="/nosotros.html" class="btn btn-danger btn-lg">Cónocenos</a>
+          </div>
+          <div class="col-md-5 mt-4 d-flex justify-content-center">
+            <img class="img-fluid" src="/img/nosotros.png" alt="nosotros imagen">
+          </div>
+        </div>
+      </div>
+      
+      <!-- Ubicacion -->
+      <div>
+        <div class="row mt-5">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.312246474937!2d-100.97103108498587!3d25.42782238378949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x84f898bc5e4e41ee!2zMjXCsDI1JzQwLjIiTiAxMDDCsDU4JzA3LjgiVw!5e0!3m2!1sen!2smx!4v1660402894620!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <!-- Footer -->
+      <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted bg-dark">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Contactanos en Redes Sociales</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Distribuidora Ruiz
+          </h6>
+          <p>
+            Empresa socialmente responsable. Dedicada a la distrubución de productos al mayoreo.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Productos
+          </h6>
+          <p>
+            Maíz
+          </p>
+          <p>
+            Frijol
+          </p>
+          <p>
+            Alimento Mascotas
+          </p>
+          <p>
+            Y más
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+          <p><i class="fas fa-home me-3"></i> Lat. Blvr. Fundadores 2635, Sin Nombre de Col 17, 25294 Saltillo, Coah.</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="ricardogmz.com">ricardogmz.com</a>
+  </div>
+</footer>
+    
+  
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/src/js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      const loader = document.querySelector('.loader_bg')
+      setTimeout(() => {
+        loader.style.display = 'none';
+      }, 1500);
+    </script>
+    
+</body>
+</html>
+
+

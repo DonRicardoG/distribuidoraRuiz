@@ -1,0 +1,177 @@
+//Import Bootstrap
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.logo-img {
+    border-radius: 4px;  /* Rounded border */
+    width: 60px; /* Set a small width */
+  }
+
+.background-us{
+    background-image: url(/img/almacenes.png);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.3);
+}
+
+.header__texto{
+  text-align: center;
+  color: #fff;
+}
+
+.loader_bg{
+  display: flex;
+  background:#d9dbe0;
+  height:100%;
+  position:fixed;
+  width:100%;
+  z-index:9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  animation: rotate 1.5s infinite linear;
+}
+.loader:before,
+.loader:after {
+  content:"";
+  flex:1;
+  background:#fff;
+  animation: mvx 0.5s infinite linear alternate;
+}
+.loader:before {
+  background: #DC4C64;
+  animation-name:mvrx;
+}
+
+@keyframes rotate {
+  100% {transform: rotate(360deg)}
+}
+@keyframes mvx {
+  0% {transform: translateX(-15px)}
+  100% {transform: translateX(15px)}
+}
+@keyframes mvrx {
+  0% {transform: translateX(15px)}
+  100% {transform: translateX(-15px)}
+}
+
+.bg-1{
+  background-image: url(/img/logoDR.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-2{
+  background-image: url(/img/portada\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card-carousel{
+  height: 300px;
+}
+
+h1{
+  font-size: calc(1rem + 1vw);
+}
+
+h3{
+  font-size: calc(1rem + 0.6vw);
+}
+
+@media (min-width: 760px){
+ .card-carousel{
+      height: 400px;
+ }
+ h1{
+  font-size: calc(1.375rem + 1.5vw);
+ }
+ h3{
+  font-size: calc(1.3rem + 0.6vw);
+ }
+}
+
+@media (max-width: 510px){
+  .lg-block{
+      display: none;
+  }
+  .md-block{
+      display: none !important;
+  }
+}
+
+@media (min-width: 510px){
+ .md-block{
+  display: block;
+ }
+ .lg-block{
+  display: none;
+ }
+ .sm-block{
+  display: none;
+ }
+}
+
+@media (min-width: 960px){
+ .md-block{
+  display: none;
+ }
+ .lg-block{
+  display: block !important;
+ }
+}
+
+.contact-div{
+  height: 200px;
+  width: 75%;
+  background-color: rgb(194, 143, 143);
+  border: 1px;
+  border-radius: 20px;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.circle-contact{
+  height: 75px;
+  width: 75px;
+  border: 1px;
+  border-radius: 40px;
+  background-color: rgb(122, 2, 2);
+}
+
+@media (max-width:560px ){
+  .wpp-25{
+   width: 75%;
+   margin: 2rem 0;
+  }
+}
+
+@media (min-width:560px ){
+  .wpp-25{
+    width: 25%;
+  }
+}
+
+
+
